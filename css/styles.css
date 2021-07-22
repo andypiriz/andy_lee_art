@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2D2D2D;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #dcdcdc;
+    font-size: 15px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+
+.contenido-centrado {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 21px;
+}
+
+
+
+.borrar-flotacion {
+    clear: both;
+}
+
+
+article a {
+    background-color: #dc143c;
+    color: #dcdcdc;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+    display: inline-block;
+
+
+}
+
+
+/* HEADER */
+header {
+    background-color: #8a2be2;
+    padding: 10px 0;
+}
+
+header img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+
+nav {
+    float: right;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    background-color: #dc143c;
+    color: #dcdcdc;
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+
+}
+
+nav ul li a:hover {
+    background-color: #000000;
+    color: #dc143c;
+}
+
+/* MAIN */
+
+#portada {
+    background-image: url("../img/portada.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    border-bottom: 4px solid #dc143c;
+    color: #D66351;
+    text-align: center;
+    font-family: 'Lobster',
+        cursive;
+    font-size: 80px;
+    padding: 150px 0 0 500px;
+    text-shadow: 2px 3px #dc143c;
+
+}
+
+
+#texto-portada {
+    color: #D66351;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    padding: 150px 0 0 500px;
+    text-shadow: 2px 3px #dc143c;
+
+}
+
+#seccion1-img {
+    height: 400px;
+    margin-right: 0;
+    padding: 15px;
+}
+
+#fondo-violeta {
+    width: 100%;
+    background-color: #8a2be2;
+    display: inline-block;
+    padding: 21px;
+}
+
+.margen-30 {
+    margin: 30px 0;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #D66351;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px #000000;
+}
+
+h2 {
+    color: #dc143c;
+    text-shadow: 1px 1px #000000;
+
+}
+
+h3 {
+    text-shadow: 1px 1px #000000;
+
+}
+
+#segunda-seccion h1 {
+    color: #dc143c;
+    text-shadow: 2px 2px #000000;
+}
+
+section {
+    overflow: auto;
+}
+
+
+/* COLUMNAS */
+
+.col {
+    float: left;
+    padding: 0 15px;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-50 {
+    width: 50%;
+
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-33 {
+    width: 33.33%;
+}
+
+
+/* FOOTER */
+footer {
+    max-width: 100%;
+    text-align: center;
+    padding: 16px 0 2px 0;
+    margin-top: 30px;
+    background-color: #8a2be2;
+}
+
+.iconos-redes {
+    padding: 0 21px;
+}
+
+/* SEGUNDA PÁGINA: DESTACADOS */
+
+#portada-destacados {
+    background-image: url("../img/portada2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    border-bottom: 4px solid #dc143c;
+}
+
+ul li {
+    list-style-image: url("../img/pincel-icono.png");
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.margen-superior {
+    margin-top: 30px;
+}
